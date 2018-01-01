@@ -1,0 +1,63 @@
+*, *:after, *:before { box-sizing: border-box; }
+html {
+  height: 100%;
+  font: 500 48px/1.1 SFUIDisplay-Semibold;
+}
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  /* background-image: url('bg.png'); */
+  background-size: cover;
+
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.5);
+
+  overflow: hidden;
+}
+
+main {
+  width: 100%;
+}
+
+p {
+  margin: 0;
+  display: inline-block;
+  min-height: 1rem;
+}
+
+.is-wrapped {
+  white-space: normal;
+  font-size: inherit;
+}
+
+.ShockField {
+
+  border-radius: 1rem;
+  background: rgba(0,0,0,.2);
+  padding: 1rem;
+  margin: 2rem;
+  position: relative;
+  -webkit-backdrop-filter: blur(5px);
+
+  outline: 0;
+
+  white-space: nowrap;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: hidden;
+}
+
+.has-wrapped {
+  align-items: left;
+}
+
+
+::selection {
+  background: rgba(255,255,255,.2);
+}
