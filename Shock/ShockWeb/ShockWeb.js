@@ -32,7 +32,7 @@ var ShockView = {
     }
     e.stopPropagation();
     e.preventDefault();
-    if (this.value() === "" && this.canQuit) {
+    if (this.value() === "" && this.canQuit()) {
       window.Bridge.quit();
     } else {
       this.clear();
