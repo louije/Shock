@@ -1,7 +1,7 @@
 *, *:after, *:before { box-sizing: border-box; }
 html {
   height: 100%;
-  font: 500 48px/1.1 SFUIDisplay-Semibold;
+  font: 500 48px/1.1 system-ui;
 }
 body {
   height: 100%;
